@@ -1,0 +1,121 @@
+*body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+height: 100vh;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1rem;
+    position: fixed;
+    width: 90%;
+    background-color: black;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.6rem;
+    font-size: 1.2rem;
+}
+.nav a{
+    text-decoration: none;
+    background-color: black;
+}
+.nav:hover{
+    cursor: pointer;
+}
+.navigationholder{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.button{
+    background-color: brown;
+    border-radius: 5rem;
+    width: 6rem;
+    height: 1.5rem;
+    cursor:pointer;
+    color: white;
+    border: none;
+}
+.button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.logo{
+    width: 5rem;
+    height: 2.5rem;
+}
+.index{
+    background-image: url(../IMAGES/WhatsApp\ Image\ 2024-12-21\ at\ 19.08.19_f5fef29a.jpg);
+    padding-top: 10rem;
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+}
+.text1{
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+.footer{
+    background-color: white;
+    height: 1.5rem;
+    padding: 3rem;
+    color: black;
+    text-align: center;
+    color: black;
+    border-top: 1px solid ;
+}
+.box{
+justify-content: space-around;
+margin-left: 100px;
+margin-right: 100px;
+gap: 10px;
+}
+.box2{
+    display: flex;
+    display: inline;
+    padding-left: 600px;
+    position: fixed;
+}
+.nav1{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+.nav1 a{
+    text-decoration: none;
+    background-color: black;
+}
+.social_icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 20px;
+    width: 20px;
+    margin-top: 2rem;
+   margin-left: 5rem;
+   margin-bottom: 2rem;
+    }
+.social_icons .icon{
+    padding: 1rem;
+    border-radius:3rem;
+    color:white;
+    background-color:black;
+    transition:0.3s;
+    cursor:pointer;
+    gap: 0rem;
+}
+.social_icons .icon:hover{
+    background-color:black;
+
+}
+
+
+
+
